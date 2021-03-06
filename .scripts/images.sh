@@ -20,17 +20,20 @@
 #
 # @todo Make a flag for this in bash.
 ##
-for i in `find img/ -name "*.jpg"`; do jpegoptim --max=90 --strip-all --all-progressive --preserve --totals $i; done
-for i in `find img/ -name "*.png"`; do pngcrush -e .png2 -rem allb -brute -reduce $i; mv ${i}2 $i; optipng -o7 $i; done
+for i in `find img/ -name "*.jpg"`; do jpegoptim --max=80 --strip-all --all-progressive --preserve --totals $i; done
+#for i in `find img/ -name "*.png"`; do pngcrush -e .png2 -rem allb -brute -reduce $i; mv ${i}2 $i; optipng -o7 $i; done
 
 # Create webp copies that are just the original filenames with .webp appended (to make it easy for Jekyll to conditionally
 # find them.
-for i in `find img/ -name "*.jpg"`; do cwebp -q 75 $i -o $i.webp; done
-for i in `find img/ -name "*.png"`; do cwebp -q 85 $i -o $i.webp; done
-for i in `find img/ -name "*.gif"`; do gif2webp -q 75 $i -o $i.webp; done
+#for i in `find img/ -name "*.jpg"`; do cwebp -q 75 $i -o $i.webp; done
+#for i in `find img/ -name "*.png"`; do cwebp -q 85 $i -o $i.webp; done
+#for i in `find img/ -name "*.gif"`; do gif2webp -q 75 $i -o $i.webp; done
 
 # If cavif [https://github.com/kornelski/cavif-rs/releases] available, make AVIFs like webp above.
 # @todo Switch this to the reference implementation once that's stable.
-for i in `find img/ -name "*.jpg"`; do cavif $i -o $i.avif; done
-for i in `find img/ -name "*.png"`; do cavif $i -o $i.avif; done
+#for i in `find img/ -name "*.jpg"`; do cavif $i; done
+#for i in `find img/ -name "*.png"`; do cavif $i --speed=6; done
 
+# Rename from double *.png.webp and *.png.avif to *.webp and *.avif
+#rename "s/\.png.webp$/.webp/" *.webp
+#rename "s/\.png.avif$/.avif/" *.avif
