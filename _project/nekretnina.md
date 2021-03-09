@@ -1,6 +1,7 @@
 ---
 layout: project
 name: Demo Project
+description: One small demo project
 image: nekretnina
 website: nekretnina.hr
 client: Demo Client
