@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
+    <title>{{ page.name }} - {{ site.title }}</title>
     <meta name="description" content="{{ page.description }}">
     <!--Open Graph & Twitter Card-->
-    {% include open.html %}
+    {% include defaults/open.html %}
     <link rel="stylesheet" href="/css/master.css">
     <link rel="shortcut icon" href="/favicon/icon.svg" type="image/svg+xml">
     <!--Fonts Preload-->
-    {% include fonts.html %}
+    {% include defaults/fonts.html %}
 </head>
 <body>
     <header>
@@ -29,16 +29,6 @@
             {{ content }}
         </article>
     </main>
-    <div class="subfooter">
-        <a class="top hide" id="to-top">
-            <svg class="icon icon__fill--top">
-                <title>To Top</title>
-                <use href="/svg/icons.svg#to-top"></use>
-            </svg>
-            <span class="screen-reader" aria-hidden="true">Go To Top</span>
-            <span class="visually-hidden" aria-hidden="true">To Top</span>
-        </a>
-    </div>
     {% include defaults/top.html %}
     {% include defaults/footer.html %}
 
