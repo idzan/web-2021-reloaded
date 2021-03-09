@@ -1,7 +1,7 @@
 ---
 layout: project
 name: “Nekretnina.hr” Web Site
-description: Web Site for “Nekretnina.hr” Project
+description: “Nekretnina.hr” Web Site
 image: nekretnina
 website: nekretnina.hr
 client: Interhaus nekretnine Ltd.
