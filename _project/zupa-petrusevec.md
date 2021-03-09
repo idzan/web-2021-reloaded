@@ -1,11 +1,11 @@
 ---
 layout: project
-name: “Nekretnina.hr” Web Site
-description: “Nekretnina.hr” Web Site
-image: nekretnina
-website: nekretnina.hr
-client: Interhaus nekretnine Ltd.
-start: June 2018.
+name: “Parish of St. Vitus, Petrusevec – Zagreb” Web Site
+description: Web Site for “Parish of St. Vitus, Petrusevec – Zagreb” Project
+image: zupa-petrusevec
+website: zupa-petrusevec.hr
+client: Parish of St. Vitus, Petrusevec – Zagreb
+start: December 2008.
 technology: CSS, HTML, JS, php, WordPress
 ---
-“Nekretnina.hr” Web Site was started in May 2018. as first-time idea about redesign of old design of site. At first it was just simple promotional site without much of features, but how work progressed it got upgraded from simple promotional site up to project which use “Reality” theme with custom feature built into it which is custom Dashboard for inserting and editing Real Estates. Site is also connected with platform “Dimedia Nekretnine” for checkups of information’s used from owner of Real Estate and so it can be easily shared on multiple Real Estate networks.
+Web site for “Parish of St. Vitus, Petrusevec” (Croatian: župa sv. Vida, Petruševec) is created in November 2007. and it is originally published to public in December of same year. I early days it was built using HTML 4.0 Transitional, bit of JavaScript and CSS2.1. First major refresh was created in August 2012. when it was built using WordPress which uses until this day. During last 7 years web site had few major web design changes which all are mostly based on free themes from Theme Repository. Photographs and major cover images are shot on smartphones and edited using multiple applications for graphics design.

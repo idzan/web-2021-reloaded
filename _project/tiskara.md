@@ -1,11 +1,11 @@
 ---
 layout: project
-name: “Nekretnina.hr” Web Site
-description: “Nekretnina.hr” Web Site
-image: nekretnina
-website: nekretnina.hr
-client: Interhaus nekretnine Ltd.
+name: “Tiskara.hr” Web Shop
+description: Web Shop for “Tiskara.hr” Project
+image: tiskara
+website: tiskara.hr
+client: Global Print Ltd.
 start: June 2018.
-technology: CSS, HTML, JS, php, WordPress
+technology: CSS, HTML, JS, php, WordPress, WooCommerce
 ---
-“Nekretnina.hr” Web Site was started in May 2018. as first-time idea about redesign of old design of site. At first it was just simple promotional site without much of features, but how work progressed it got upgraded from simple promotional site up to project which use “Reality” theme with custom feature built into it which is custom Dashboard for inserting and editing Real Estates. Site is also connected with platform “Dimedia Nekretnine” for checkups of information’s used from owner of Real Estate and so it can be easily shared on multiple Real Estate networks.
+“Tiskara.hr” Web Shop is project which started in June 2018. Web Site is based on WordPress and Web Shop platform is running on WooCommerce. For design web shop is based on “Electro” theme. Web shop is hosted on powerful VPS because of high number of visitors and customers.

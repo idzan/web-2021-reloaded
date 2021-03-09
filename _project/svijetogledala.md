@@ -1,11 +1,11 @@
 ---
 layout: project
-name: “Nekretnina.hr” Web Site
-description: “Nekretnina.hr” Web Site
-image: nekretnina
-website: nekretnina.hr
-client: Interhaus nekretnine Ltd.
-start: June 2018.
-technology: CSS, HTML, JS, php, WordPress
+name: “Svijet Ogledala” Web Site and Web Shop
+description: Web Site and Web Shop for “Svijet Ogledala” Project
+image: svijetogledala
+website: svijetogledala.hr
+client: MojBar2018 Ltd.
+start: November 2020.
+technology: WordPress, WooCommerce
 ---
-“Nekretnina.hr” Web Site was started in May 2018. as first-time idea about redesign of old design of site. At first it was just simple promotional site without much of features, but how work progressed it got upgraded from simple promotional site up to project which use “Reality” theme with custom feature built into it which is custom Dashboard for inserting and editing Real Estates. Site is also connected with platform “Dimedia Nekretnine” for checkups of information’s used from owner of Real Estate and so it can be easily shared on multiple Real Estate networks.
+“Svijet Ogledala” Web Site is created in November of 2020. as project on which people can see and order customized mirrors for your walls. On this project I started basic design and all important security configuration on which client is adding items and editing site to be configured as he wants with design. Site is running WordPress with WooCommerce from which you can order your custom made or customized mirrors.
