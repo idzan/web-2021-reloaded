@@ -1,0 +1,72 @@
+---
+layout: layout
+---
+<div class="project__informations">
+    <picture class="img__project">
+        <source type="image/avif" 
+                            srcset="
+                                /img/300w/{{ page.image }}-300w.avif 300w,  
+                                /img/768w/{{ page.image }}-768w.avif 768w, 
+                                /img/1024w/{{ page.image }}-1024w.avif 1024w,
+                                /img/1536w/{{ page.image }}-1536w.avif 1536w, 
+                                /img/2048w/{{ page.image }}-2048w.avif 2048w,
+                                /img/full/{{ page.image }}.avif 2300w" 
+                            sizes="(max-width: 2300px) 100vw, 2300px">
+                        <source type="image/webp" 
+                            srcset="
+                                /img/300w/{{ page.image }}-300w.webp 300w, 
+                                /img/768w/{{ page.image }}-768w.webp 768w,
+                                /img/1024w/{{ page.image }}-1024w.webp 1024w, 
+                                /img/1536w/{{ page.image }}-1536w.webp 1536w, 
+                                /img/2048w/{{ page.image }}-2048w.webp 2048w, 
+                                /img/full/{{ page.image }}.webp 2300w" 
+                            sizes="(max-width: 2300px) 100vw, 2300px" >
+                        <img src="/img/full/{{ page.image }}c.jpg"  
+                            srcset=" 
+                                /img/300w/{{ page.image }}-300w.jpg 300w, 
+                                /img/768w/{{ page.image }}-768w.jpg 768w,
+                                /img/1024w/{{ page.image }}-1024w.jpg 1024w, 
+                                /img/1536w/{{ page.image }}-1536w.jpg 1536w, 
+                                /img/2048w/{{ page.image }}c-2048w.jpg 2048w, 
+                                /img/full/{{ page.image }}.jpg 2300w" 
+                            sizes="(max-width: 2300px) 100vw, 2300px"  
+                            width="1536" height="817"  alt="{{ page.description }}">
+    </picture>
+    <h2 class="project__title">{{ page.name }}</h2>
+</div>
+<div class="project__description">
+    {{ content }}
+</div>
+<div class="project__details">
+    <p>
+        <svg class="icon icon__fill--project">
+            <title>Web Site</title>
+            <use href="/svg/icons.svg#website"></use>
+        </svg>
+        &nbsp;
+        <strong>Project Web Site: </strong><a href="https://{{ page.website }}" target="_blank" rel="noopener noreferrer" class="link__external">{{ page.website }}</a>
+    </p>
+    <p>
+        <svg class="icon icon__fill--project">
+            <title>Client</title>
+            <use href="/svg/icons.svg#client"></use>
+        </svg>
+        &nbsp;
+        <strong>Client: </strong>{{ page.client }}
+    </p>
+    <p>
+        <svg class="icon icon__fill--project">
+            <title>Project Started (Calendar)</title>
+            <use href="/svg/icons.svg#calendar"></use>
+        </svg>
+        &nbsp;
+        <strong>Project Started: </strong>{{ page.start }}
+    </p>
+    <p>
+        <svg class="icon icon__fill--project">
+            <title>Technologies Used in Project</title>
+            <use href="/svg/icons.svg#technologies"></use>
+        </svg>
+        &nbsp;
+        <strong>Technologies Used: </strong>{{ page.technology }}</p>
+</div>
