@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <!--Open Graph & Twitter Card-->
+    {% include open.html %}
+    <link rel="stylesheet" href="/css/master.css">
+    <link rel="shortcut icon" href="/favicon/icon.svg" type="image/svg+xml">
+    <!--Fonts Preload-->
+    {% include fonts.html %}
+</head>
+<body>
+    <header>
+        <div class="container row">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <div class="site__name">
+                <span class="site__title">Marko</span> <span class="site__title color__accent">Idžan</span>
+            </div>
+            {% include page/navigation.html %}
+        </div>
+    </header>
+    <main>
+        <article>
+            {{ content }}
+        </article>
+    </main>
+    <div class="subfooter">
+        <a class="top hide" id="to-top">
+            <svg class="icon icon__fill--top">
+                <title>To Top</title>
+                <use href="/svg/icons.svg#to-top"></use>
+            </svg>
+            <span class="screen-reader" aria-hidden="true">Go To Top</span>
+            <span class="visually-hidden" aria-hidden="true">To Top</span>
+        </a>
+    </div>
+    {% include defaults/top.html %}
+    {% include defaults/footer.html %}
+
+    <script src="/js/code.js"></script>
+</body>
+</html>
