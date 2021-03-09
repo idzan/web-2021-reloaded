@@ -58,10 +58,10 @@ GEM
     unicode-display_width (1.7.0)
 
 PLATFORMS
-  x86_64-linux
+  ruby
 
 DEPENDENCIES
   jekyll
 
 BUNDLED WITH
-   2.2.3
+   2.1.4
