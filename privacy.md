@@ -1,6 +1,6 @@
 ---
 layout: page
-name: Privacy and Cookie Policy
+title: Privacy and Cookie Policy
 description: Privacy and Cookie Policy for Marko Idzan's Web Site and Social Media Platforms
 ---
 I Marko Idzan (later in text: **“owner”**) and my personal web site on which you are right now ([https://idzan.eu](https://idzan.eu){:.link__internal}, later in text: **“site”**) is committed to respecting your privacy.
@@ -11,7 +11,7 @@ This privacy policy informs you how owner and site collects, stores and uses you
 
 This site doesn’t collect any personal data, at all. Seriously, as this site is without analytics or other tracking codes it doesn’t collect anything. Only thing on site which is saved in your browser is local setting (view: [Cookie Information’s](#cookies){:.link__internal}).
 
-All data that is collected is browser and visit information from our service provider Cloudflare (check their [Privacy Policy](https://www.netlify.com/privacy/){:.link__external}{:target="blank"}) so it can serve site to you faster using Content Delivery Network.
+All data that is collected is browser and visit information from our service provider Cloudflare (check their [Privacy Policy](https://www.cloudflare.com/privacypolicy/){:.link__external}{:target="blank"}) so it can serve site to you faster using Content Delivery Network.
 
 ## What private data owner and site collects?
 
@@ -21,7 +21,7 @@ As mentioned above site doesn’t collect any private data, but if you contact o
 
 This site contains links from and to other web sites. This privacy policy applies only to this site, and not for others. Those sites have their Privacy Policy which you can read on those sites if they collect any data and if they collect what they collect.
 
-## Cookie Information’s
+## Cookie Information’s {#cookies}
 
 ### What are cookies?
 
