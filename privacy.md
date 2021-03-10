@@ -11,7 +11,7 @@ This privacy policy informs you how owner and site collects, stores and uses you
 
 This site doesn’t collect any personal data, at all. Seriously, as this site is without analytics or other tracking codes it doesn’t collect anything. Only thing on site which is saved in your browser is local setting (view: [Cookie Information’s](#cookies){:.link__internal}).
 
-All data that is collected is browser and visit information from our service provider Cloudflare (check their [Privacy Policy](https://www.cloudflare.com/privacypolicy/){:.link__external}{:target="blank"}{rel="noopener noreferrer"}) so it can serve site to you faster using Content Delivery Network.
+All data that is collected is browser and visit information from our service provider Cloudflare (check their [Privacy Policy](https://www.cloudflare.com/privacypolicy/){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}) so it can serve site to you faster using Content Delivery Network.
 
 ## What private data owner and site collects?
 
@@ -39,7 +39,7 @@ That setting is named: *user-color-scheme* and it is used for saving information
 
 This site also has only one functional script which is used to make fully Responsive mobile menu and Dark/Light Mode Switching, and from which is saved setting *user-color-scheme*.
 
-## Can we link to your site?
+## Can we link to your site? {#linking}
 
 Owner supports linking to this site in all ways which can help others to know more about owner.
 
