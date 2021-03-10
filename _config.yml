@@ -1,5 +1,5 @@
 title: Marko Idžan
-baseurl: /
+baseurl: 
 url: "https://idzan.eu"
 permalink: /:title/
 markdown: kramdown
