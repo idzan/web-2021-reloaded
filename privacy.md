@@ -11,7 +11,7 @@ This privacy policy informs you how owner and site collects, stores and uses you
 
 This site doesn’t collect any personal data, at all. Seriously, as this site is without analytics or other tracking codes it doesn’t collect anything. Only thing on site which is saved in your browser is local setting (view: [Cookie Information’s](#cookies){:.link__internal}).
 
-All data that is collected is browser and visit information from our service provider Cloudflare (check their [Privacy Policy](https://www.cloudflare.com/privacypolicy/){:.link__external}{:target="blank"}) so it can serve site to you faster using Content Delivery Network.
+All data that is collected is browser and visit information from our service provider Cloudflare (check their [Privacy Policy](https://www.cloudflare.com/privacypolicy/){:.link__external}{:target="blank"}{rel="noopener noreferrer"}) so it can serve site to you faster using Content Delivery Network.
 
 ## What private data owner and site collects?
 
@@ -57,7 +57,7 @@ Yes, you might see shared some Referral or Affiliate Link shared on owner’s So
 
 ## Can we see your code and use it on our site?
 
-Yes, yes you can. And I highly recommend it to check source code on owner’s [private GitHub account](https://github.com/idzan){:.link__external}. All code is documented and is readable without any discrepancies which might be unreadable. If you want help with source code which is used, you can contact owner trough email or Social Media Accounts which can be found on Contact page.
+Yes, yes you can. And I highly recommend it to check source code on owner’s [private GitHub account](https://github.com/idzan){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}. All code is documented and is readable without any discrepancies which might be unreadable. If you want help with source code which is used, you can contact owner trough email or Social Media Accounts which can be found on Contact page.
 
 ## What are your rights with respect to personal data?
 
@@ -80,7 +80,7 @@ And no, owner will not make big changes before noticing people who contact him t
 If you have and questions related to this Privacy Policy or about data privacy practices, you can contact owner trough email linked below. All contact information’s linked below are for Data Privacy Collector and Privacy Updates.
 
 **Name:** Marko Idzan  
-**Email:** [gdpr@idzan.eu](mailto:gdpr@idzan.eu)  
+**Email:** [gdpr@idzan.eu](mailto:gdpr@idzan.eu){:.link__internal}  
 **Phone:** +385921996272
 
 This Privacy and Cookie Policy is in use from 10. March 2021.
