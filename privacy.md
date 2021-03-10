@@ -11,7 +11,7 @@ This privacy policy informs you how owner and site collects, stores and uses you
 
 This site doesn’t collect any personal data, at all. Seriously, as this site is without analytics or other tracking codes it doesn’t collect anything. Only thing on site which is saved in your browser is local setting (view: [Cookie Information’s](#cookies){:.link__internal}).
 
-All data that is collected is browser and visit information from our service provider Cloudflare (check their [Privacy Policy](https://www.cloudflare.com/privacypolicy/){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}) so it can serve site to you faster using Content Delivery Network.
+All data that is collected is browser and visit information from our service provider Cloudflare (check their [Privacy Policy](https://www.cloudflare.com/privacypolicy/){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}) so it can serve site to you faster using Content Delivery Network and for basic check's who visited site so it couldn't be DDoS-ed.
 
 ## What private data owner and site collects?
 
@@ -33,7 +33,9 @@ A script is a piece of program code that is used to make this site function prop
 
 ### What cookies and scripts this site use?
 
-This site doesn’t collect any cookies at all. Only thing that will be placed on your computer and browser is small setting which is saved in your Local Storage.
+This site doesn’t collect any personalized cookies at all. On your computer and browser will be placed small setting which is saved in your Local Storage and Cloudflare Cookie for DDoS Protection and Content Delivery Network.
+
+Cookie which is placed on your computer and browser is named: *__cfduid*. You can learn more about it on [CloudFlare Support Page](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies#12345682){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}.
 
 That setting is named: *user-color-scheme* and it is used for saving information from Dark/Light Mode Switch which can be found in footer of site.
 
