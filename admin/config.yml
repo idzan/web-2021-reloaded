@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: 'img/'
+collections:
+  - name: 'project'
+    label: 'Projects'
+    folder: '_project/'
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { name: 'Layout', name: 'layout', widget: 'hidden', default: 'project' }
+      - { name: 'Title', name: 'name', widget: 'string' }
+      - { name: 'Description', name: 'description', widget: 'string' }
+      - { name: 'Image', name: 'image', widget: 'string' }
+      - { name: 'Web Site', name: 'website', widget: 'string' }
+      - { name: 'Client', name: 'client', widget: 'string' }
+      - { name: 'Project Start Date', name: 'start', widget: 'string' }
+      - { name: 'Technologies Used', name: 'technology', widget: 'string' }
+      - { name: 'Body', name: 'body', widget: 'markdown' }
