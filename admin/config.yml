@@ -10,12 +10,12 @@ collections:
     editor:
       preview: true
     fields:
-      - { name: 'Layout', name: 'layout', widget: 'hidden', default: 'project' }
-      - { name: 'Title', name: 'name', widget: 'string' }
-      - { name: 'Description', name: 'description', widget: 'string' }
-      - { name: 'Image', name: 'image', widget: 'string' }
-      - { name: 'Web Site', name: 'website', widget: 'string' }
-      - { name: 'Client', name: 'client', widget: 'string' }
-      - { name: 'Project Start Date', name: 'start', widget: 'string' }
-      - { name: 'Technologies Used', name: 'technology', widget: 'string' }
-      - { name: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'project' }
+      - { label: 'Title', name: 'name', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'string' }
+      - { label: 'Web Site', name: 'website', widget: 'string' }
+      - { label: 'Client', name: 'client', widget: 'string' }
+      - { label: 'Project Start Date', name: 'start', widget: 'string' }
+      - { label: 'Technologies Used', name: 'technology', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
