@@ -1,17 +1,17 @@
-@import "../utilities/_colors.scss";
-@import "../utilities/_icons.scss";
+@use "../utilities/_colors.scss";
+@use "../utilities/_icons.scss";
 
 :root {
     --color-mode: "light"; 
 
-    --dark-blue: #{$dark-blue};
-    --white: #{$white};
-    --darker-white: #{$darker-white};
-    --gray: #{$gray};
-    --orange: #{$orange};
-    --deep-red: #{$deep-red};
-    --green: #{$green};
-    --red: #{$red};
+    --dark-blue: #{colors.$dark-blue};
+    --white: #{colors.$white};
+    --darker-white: #{colors.$darker-white};
+    --gray: #{colors.$gray};
+    --orange: #{colors.$orange};
+    --deep-red: #{colors.$deep-red};
+    --green: #{colors.$green};
+    --red: #{colors.$red};
 
     --background: var(--white);
     --text: var(--dark-blue);
@@ -29,9 +29,12 @@
     --selection-text: var(--white);
     --icon-fill: var(--dark-blue);
     --top: var(--darker-white);
+    --consent: var(--darker-white);
+    --consent-button: var(--green);
+    --consent-button__text: var(--white);
 
-    --switch-icon: #{$icon-moon};
-    --switch-icon-filter: #{$icon-moon-filter};
+    --switch-icon: #{icons.$icon-moon};
+    --switch-icon-filter: #{icons.$icon-moon-filter};
 
     :focus {
         outline: var(--focus) solid 1px;
@@ -84,4 +87,13 @@ header {
 
 .top {
     background: var(--top);
+}
+
+.consent {
+    background: var(--consent);
+}
+
+.button__agree {
+    background: var(--consent-button);
+    color: var(--consent-button__text);
 }
