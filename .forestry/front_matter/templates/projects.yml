@@ -1,0 +1,28 @@
+---
+label: Projects
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: name
+  label: name
+- type: text
+  name: description
+  label: description
+- type: text
+  name: image
+  label: image
+- type: text
+  name: website
+  label: website
+- type: text
+  name: client
+  label: client
+- type: text
+  name: start
+  label: start
+- type: text
+  name: technology
+  label: technology
