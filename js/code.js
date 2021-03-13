@@ -119,10 +119,5 @@ window.onload = () => {
         setTimeout(() => {
             consentPopup.classList.remove('hidden');
         }, 2000);
-        /* const consented = confirm('Agree or not?');
-        if (consented) {
-            saveToStorage(storageType);
-        } */
-        /* consentPopup.classList.remove('hidden'); */
     }
 };
