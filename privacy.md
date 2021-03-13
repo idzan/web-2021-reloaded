@@ -33,13 +33,13 @@ A script is a piece of program code that is used to make this site function prop
 
 ### What cookies and scripts this site use?
 
-This site doesn’t collect any personalized cookies at all. On your computer and browser will be placed small setting which is saved in your Local Storage and Cloudflare Cookie for DDoS Protection and Content Delivery Network.
+This site doesn’t collect any personalized cookies at all. On your computer and browser will be placed small settings which are saved in your Local Storage and Cloudflare Cookie for DDoS Protection and Content Delivery Network.
 
 Cookie which is placed on your computer and browser is named: *__cfduid*. You can learn more about it on [CloudFlare Support Page](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies#12345682){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}.
 
-That setting is named: *user-color-scheme* and it is used for saving information from Dark/Light Mode Switch which can be found in footer of site.
+That settings are named: *user-color-scheme* and *idzan_consent* and they are used for saving information from Dark/Light Mode Switch which can be found in footer of site and for saving that you agreed to this Privacy and Cookie Policy.
 
-This site also has only one functional script which is used to make fully Responsive mobile menu and Dark/Light Mode Switching, and from which is saved setting *user-color-scheme*.
+This site also has only one functional script which is used to make fully Responsive mobile menu, Dark/Light Mode Switching and saving data about Agreeing to this Privacy Policy. Everything from this script is saved in Local Storage within keys: *user-color-scheme* and *idzan_consent*.
 
 ## Can we link to your site? {#linking}
 
@@ -85,4 +85,4 @@ If you have and questions related to this Privacy Policy or about data privacy p
 **Email:** [gdpr@idzan.eu](mailto:gdpr@idzan.eu){:.link__internal}  
 **Phone:** +385921996272
 
-This Privacy and Cookie Policy is in use from 10. March 2021.
+This Privacy and Cookie Policy is in use from 13. March 2021.
