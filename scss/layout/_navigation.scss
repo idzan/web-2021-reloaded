@@ -8,24 +8,89 @@ header {
     visibility: hidden;
     height: 0;
     position: absolute;
+
+    &-toggle {
+        cursor: pointer;
+        border: 0;
+        width: 3em;
+        height: 3em;
+        padding: 0em;
+        border-radius: 50%;
+        transition: opacity 250ms ease;
+        position: absolute;
+        left: 0;
+
+        &:focus {
+            opacity: .75;
+        }
+
+        &:hover {
+            opacity: .75;
+        }
+        
+    }
+
+    &--visible {
+        visibility: visible;
+        height: auto;
+        position: relative;
+    }
+
+    &__item {
+        padding: 0.5em;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 1em;
+    }
+
+    &__link {
+        color: var(--gray);
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-top: 0.5em;
+    }
+
 }
 
-.nav-toggle {
-    cursor: pointer;
-    border: 0;
-    width: 3em;
-    height: 3em;
-    padding: 0em;
-    border-radius: 50%;
-    transition: opacity 250ms ease;
-    position: absolute;
-    left: 0;
+@media (min-width: 720px) {
+
+    .nav {
+        display: flex;
+        padding: 1.5em;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+        flex-shrink: 1;
+        visibility: initial;
+
+        &-toggle {
+            display: none;
+        }
+    
+        &__list {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+    
+            &--primary {
+                margin-left: auto;
+            }
+        }
+    
+        &__link {
+            color: var(--gray);
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 0 0.75em;
+        }
+    }
+
+    
 }
 
-.nav-toggle:focus,
-.nav-toggle:hover {
-    opacity: .75;
-}
 
 .hamburger {
     width: 50%;
@@ -52,61 +117,4 @@ header {
 
 .hamburger::after {
     transform: translateY(3px);
-}
-
-.nav--visible {
-    visibility: visible;
-    height: auto;
-    position: relative;
-}
-
-.nav__item {
-    padding: 0.5em;
-}
-
-.nav__list {
-    list-style: none;
-    padding: 1em;
-}
-
-.nav__link {
-    color: var(--gray);
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 0.5em;
-}
-
-@media (min-width: 720px) {
-
-    .nav-toggle {
-        display: none;
-    }
-
-    .nav {
-        display: flex;
-        padding: 1.5em;
-        justify-content: space-between;
-        align-items: center;
-        flex-grow: 1;
-        flex-shrink: 1;
-        visibility: initial;
-    }
-
-    .nav__list {
-        display: flex;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    .nav__list--primary {
-        margin-left: auto;
-    }
-
-    .nav__link {
-        color: var(--gray);
-        text-decoration: none;
-        text-transform: uppercase;
-        padding: 0 0.75em;
-    }
 }
