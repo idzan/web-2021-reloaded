@@ -120,7 +120,7 @@ strong {
   font-weight: 600;
 }
 
-#home h2 {
+#home h2, #about h2, #blog h2, #contact h2 {
   font-weight: 600;
 }
 
@@ -142,10 +142,6 @@ h1 .site__title--heading {
   padding: 0 1rem;
 }
 
-#about h2, #blog h2, #contact h2 {
-  font-weight: 600;
-}
-
 .nav__item {
   font-weight: 500;
 }
@@ -163,24 +159,22 @@ h1 .site__title--heading {
   font-size: 0.9rem;
 }
 
-.link__external:hover, .link__external:focus, .link__internal:hover, .link__internal:focus {
+.link__external:focus, .link__internal:focus {
+  filter: brightness(80%);
+}
+.link__external:hover, .link__internal:hover {
   filter: brightness(80%);
 }
 
-.copyright__text {
-  text-align: center;
-  /* margin-top: 1rem; */
-}
-
-.gdpr__links {
+.copyright__text, .gdpr__links {
   text-align: center;
 }
-
 @media (max-width: 720px) {
   .copyright__text, .gdpr__links {
     margin-top: 1rem;
   }
 }
+
 .visually-hidden, .screen-reader {
   display: block;
   height: 1px;
@@ -266,58 +260,48 @@ h1 .site__title--heading {
   border: none;
   text-align: center;
 }
-
-.button:hover, .button:focus {
-  filter: saturate(150%);
-}
-
 .button__about {
   margin-top: 1.75rem;
   width: 50vw;
 }
-
 .button__download {
   margin-top: 2rem;
   width: 50vw;
   background: #4F5D75;
   color: #fdfbfb;
 }
-
 .button__more {
   width: 40vw;
 }
-
 .button__agree {
   width: 50vw;
 }
-
 .button__return {
   width: 55vw;
   background: #4F5D75;
   color: #fdfbfb;
 }
-
+.button:hover {
+  filter: saturate(150%);
+}
+.button:focus {
+  filter: saturate(150%);
+}
 @media (min-width: 720px) {
   .button__about {
     width: 20vw;
   }
-
-  .button__download {
+  .button__download, .button__agree {
     width: 25vw;
   }
-
   .button__more {
     width: 15vw;
   }
-
-  .button__agree {
-    width: 25vw;
-  }
-
   .button__return {
     width: 10vw;
   }
 }
+
 .container {
   margin: 0 auto;
   position: relative;
@@ -827,9 +811,13 @@ header {
 }
 
 .user-toggle {
-  /* margin: 1em auto 0 auto;
-  padding-top: 1em; */
   text-align: center;
+}
+@media (max-width: 720px) {
+  .user-toggle {
+    margin: 1em auto 0 auto;
+    padding-top: 1em;
+  }
 }
 
 .toggle-button {
@@ -840,11 +828,6 @@ header {
   padding: 1em;
   transition: background 500ms ease-in-out, color 200ms ease;
 }
-.toggle-button :focus {
-  outline: 1px solid var(--button);
-  outline-offset: 0.5em;
-}
-
 .toggle-button__icon {
   background: var(--switch-icon);
   color: var(--button-text);
@@ -855,13 +838,11 @@ header {
   transform: translateY(1px);
   transition: filter 500ms ease-in-out;
 }
-
-@media (max-width: 720px) {
-  .user-toggle {
-    margin: 1em auto 0 auto;
-    padding-top: 1em;
-  }
+.toggle-button :focus {
+  outline: 1px solid var(--button);
+  outline-offset: 0.5em;
 }
+
 .top {
   cursor: pointer;
   transition: all 0.25s ease-in-out;

@@ -11,8 +11,10 @@ strong {
     font-weight: 600;
 }
 
-#home h2 {
-    font-weight: 600;
+#home, #about, #blog, #contact {
+    h2 {
+        font-weight: 600;
+    }
 }
 
 .site__name {
@@ -33,10 +35,6 @@ h1 .site__title--heading {
     padding: 0 1rem;
 }
 
-#about h2, #blog h2, #contact h2 {
-    font-weight: 600;
-}
-
 .nav__item {
     font-weight: 500;
 }
@@ -54,21 +52,19 @@ h1 .site__title--heading {
     font-size: 0.9rem;
 }
 
-.link__external:hover, .link__external:focus, .link__internal:hover, .link__internal:focus {
-    filter: brightness(80%);
+.link__external, .link__internal {
+    &:focus {
+        filter: brightness(80%);
+    }
+    &:hover {
+        filter: brightness(80%);
+    }
 }
 
-.copyright__text {
+.copyright__text, .gdpr__links {
     text-align: center;
-    /* margin-top: 1rem; */
-}
 
-.gdpr__links {
-    text-align: center;
-}
-
-@media (max-width: 720px) {
-    .copyright__text, .gdpr__links {
+    @media (max-width: 720px) {
         margin-top: 1rem;
     }
 }
