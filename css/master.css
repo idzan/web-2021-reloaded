@@ -196,39 +196,31 @@ h1 .site__title--heading {
   width: 1em;
   height: 1em;
 }
-
 .icon__small {
   width: 0.75em;
   height: 0.75em;
 }
-
 .icon__square {
   width: 2em;
   height: 2em;
   padding: 0.5em;
   margin: 0.25em;
 }
-
 .icon__fill {
   fill: #fdfbfb;
 }
-
 .icon__facebook {
   background: #3b5998;
 }
-
 .icon__twitter {
   background: #1da1f2;
 }
-
 .icon__linkedin {
   background: #0077b5;
 }
-
 .icon__instagram {
   background: #e1306c;
 }
-
 .icon__youtube {
   background: #ff0000;
 }
@@ -237,21 +229,19 @@ h1 .site__title--heading {
   width: 50%;
   aspect-ratio: 1/1;
 }
-
 .img__thumbnail--portfolio {
   object-fit: cover;
   aspect-ratio: 16/9;
 }
-
 .img__project {
   max-width: 95vw;
 }
-
 @media (min-width: 720px) {
   .img__project {
     max-width: 40vw;
   }
 }
+
 .button {
   display: inline-block;
   padding: 1rem;
@@ -484,9 +474,6 @@ header {
   position: sticky;
 }
 
-/* #home, #about, #services, #portfolio, #blog, #contact {
-    padding: 1rem;
-} */
 #home {
   height: 75vh;
   padding-bottom: 4rem;

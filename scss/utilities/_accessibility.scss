@@ -9,8 +9,10 @@
             clip-path: inset(1px);
     white-space: nowrap;
     position: absolute;
-  }
-  
-  .no-js .user-toggle {
-    display: none;
-  }
+}
+
+.no-js  {
+  .user-toggle {
+      display: none;
+    }
+}
