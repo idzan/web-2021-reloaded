@@ -11,6 +11,9 @@
             --darker-white: #{colors.$darker-white};
             --gray: #{colors.$gray};
             --orange: #{colors.$orange};
+            --deep-orange: #{colors.$deep-orange};
+            --darker-orange: #{colors.$darker-orange};
+            --light-orange: #{colors.$light-orange};
             --deep-red: #{colors.$deep-red};
             --green: #{colors.$green};
             --red: #{colors.$red};
@@ -23,9 +26,9 @@
             --nav-toggle-text: var(--gray);
             --menu-text: var(--white);
             --link: var(--orange);
-            --button: var(--orange);
+            --button: var(--deep-orange);
             --button-text: var(--white);
-            --accent: var(--orange);
+            --accent: var(--light-orange);
             --focus: var(--white);
             --selection: var(--orange);
             --selection-text: var(--white);
@@ -109,6 +112,9 @@
     --darker-white: #{colors.$darker-white};
     --gray: #{colors.$gray};
     --orange: #{colors.$orange};
+    --deep-orange: #{colors.$deep-orange};
+    --darker-orange: #{colors.$darker-orange};
+    --light-orange: #{colors.$light-orange};
     --deep-red: #{colors.$deep-red};
     --green: #{colors.$green};
     --red: #{colors.$red};
@@ -123,7 +129,7 @@
     --link: var(--orange);
     --button: var(--orange);
     --button-text: var(--white);
-    --accent: var(--orange);
+    --accent: var(--light-orange);
     --focus: var(--white);
     --selection: var(--orange);
     --selection-text: var(--white);
