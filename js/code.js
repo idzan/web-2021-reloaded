@@ -96,28 +96,3 @@ scrollToTopButton.onclick = function(e) {
     e.preventDefault();
     scrollToTop();
 }
-
-// Consent Bar (Because of CloudFlare Cookie)
-const storageType = localStorage;
-const consentPropertyName = 'idzan_consent';
-
-const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
-const saveToStorage = () => storageType.setItem(consentPropertyName, true);
-
-window.onload = () => {
-
-    const agreeFunction = event => {
-        saveToStorage(storageType);
-        consentPopup.classList.add('hidden');
-    }
-
-    const consentPopup = document.getElementById('consent');
-    const agreeButton = document.getElementById('agree');
-    agreeButton.addEventListener('click', agreeFunction);
-
-    if (shouldShowPopup(storageType)) {
-        setTimeout(() => {
-            consentPopup.classList.remove('hidden');
-        }, 2000);
-    }
-};

@@ -34,9 +34,6 @@
             --selection-text: var(--white);
             --icon-fill: var(--white);
             --top: var(--gray);
-            --consent: var(--gray);
-            --consent-button: var(--green);
-            --consent-button__text: var(--white);
 
             --switch-icon: #{icons.$icon-sun};
             --switch-icon-filter: #{icons.$icon-sun-filter};
@@ -94,15 +91,6 @@
             background: var(--top);
         }
 
-        .consent {
-            background: var(--consent);
-        }
-
-        .button__agree {
-            background: var(--consent-button);
-            color: var(--consent-button__text);
-        }
-
     }
 }
 
@@ -135,7 +123,6 @@
     --selection-text: var(--white);
     --icon-fill: var(--white);
     --top: var(--gray);
-    --consent: var(--gray);
 
     --switch-icon: #{icons.$icon-sun};
     --switch-icon-filter: #{icons.$icon-sun-filter};
