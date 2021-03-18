@@ -13,8 +13,6 @@ This site don't collect any personal data.
 
 But, our hosting and deployment (and also Content Delivery Network Provider) [Cloudflare](https://www.cloudflare.com/privacypolicy/){:.link__external}{:rel="noopener noreferrer"}{:target="blank"} can collect some details about your browser, device type and your country of origin so it can protect this web site from DDoS attacks. Using their service namely [Cloudflare Privacy First Analytics](https://www.cloudflare.com/web-analytics/){:.link__external}{:rel="noopener noreferrer"}{:target="blank"} owner can check some of informations about visitors without placing cookies to your computer.
 
-If you visit this web site until [10th May of 2021](https://blog.cloudflare.com/deprecating-cfduid-cookie/){:.link__external}{:rel="noopener noreferrer"}{:target="blank"} you should get small cookie placed on your computer/smartphone/tablet which will not be anymore in use after that date. You can read more about that [here](https://blog.cloudflare.com/deprecating-cfduid-cookie/){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}.
-
 Only thing that will be placed on your browser (with your consent, obviously) are two Local Storage settings for your easier usage of this site, and all details can be found in [Cookie Information’s](#cookies){:.link__internal}.
 
 ## What private data owner and site collects?
@@ -37,9 +35,9 @@ A script is a piece of program code that is used to make this site function prop
 
 ### What cookies and scripts this site use?
 
-This site doesn’t have any personalized or tracking cookies at all. On your computer and browser will be placed small settings which are saved in your Local Storage and [Cloudflare Cookie for DDoS Protection](https://blog.cloudflare.com/deprecating-cfduid-cookie/){:.link__external}{:rel="noopener noreferrer"}{:target="blank"} and Content Delivery Network.
+This site doesn’t have any personalized or tracking cookies at all. On your computer and browser will be placed small settings which are saved in your Local Storage and Cloudflare Cookie for DDoS Protection and Content Delivery Network.
 
-Cookie which is placed on your computer and browser is named: *__cfduid*. You can learn more about it on [CloudFlare Support Page](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies#12345682){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}. *To be noted is that this cookie will be deprecated as of May 10th 2021. You can learn more about that following [this](https://blog.cloudflare.com/deprecating-cfduid-cookie/){:.link__external}{:rel="noopener noreferrer"}{:target="blank"} link*
+Cookies which are placed on your computer and browser are named: *__cfduid* and *__cf_bm*. You can learn more about them on [CloudFlare Support Page](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}. *To be noted is that cookie **__cfduid** will be deprecated as of May 10th 2021. You can learn more about that following [this](https://blog.cloudflare.com/deprecating-cfduid-cookie/){:.link__external}{:rel="noopener noreferrer"}{:target="blank"} link.*
 
 That settings are named: *user-color-scheme* and *idzan_consent* and they are used for saving information from Dark/Light Mode Switch which can be found in footer of site and for saving that you agreed to this Privacy and Cookie Policy.
 
