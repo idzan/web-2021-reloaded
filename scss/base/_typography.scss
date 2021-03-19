@@ -64,7 +64,7 @@ h1 .site__title--heading {
 .copyright__text, .gdpr__links {
     text-align: center;
 
-    @media (max-width: 720px) {
+    @media (max-width: 45em) {
         margin-top: 1rem;
     }
 }
