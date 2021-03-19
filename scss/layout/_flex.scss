@@ -13,6 +13,10 @@
     display: flex;
     justify-content: center;
     gap: .25rem;
+
+    @media (min-width: 45em) {
+        justify-content: flex-start;
+    }
 }
 
 @media (min-width: 45em) {
@@ -22,10 +26,6 @@
         justify-content: space-between;
         align-items: center;
 
-    }
-
-    .social__icons {
-        justify-content: flex-start;
     }
     
 }

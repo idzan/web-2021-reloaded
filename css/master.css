@@ -135,10 +135,6 @@ strong {
   font-weight: 600;
 }
 
-/* h1 .site__title--heading {
-    font-size: 2rem;
-    font-weight: 600;
-} */
 .post__title {
   text-align: center;
   padding: 0 1rem;
@@ -310,16 +306,17 @@ strong {
   justify-content: center;
   gap: 0.25rem;
 }
+@media (min-width: 45em) {
+  .social__icons {
+    justify-content: flex-start;
+  }
+}
 
 @media (min-width: 45em) {
   .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .social__icons {
-    justify-content: flex-start;
   }
 }
 footer {
