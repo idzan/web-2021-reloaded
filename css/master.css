@@ -127,16 +127,18 @@ strong {
 .site__name {
   font-weight: 600;
 }
-
 .site__title {
   font-size: 1.5rem;
 }
-
-h1 .site__title--heading {
+.site__title--heading {
   font-size: 2rem;
   font-weight: 600;
 }
 
+/* h1 .site__title--heading {
+    font-size: 2rem;
+    font-weight: 600;
+} */
 .post__title {
   text-align: center;
   padding: 0 1rem;
