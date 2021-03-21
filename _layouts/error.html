@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <!--Open Graph & Twitter Card-->
+    {% include defaults/open.html %}
+    <link rel="stylesheet" href="/css/master.css">
+    <link rel="shortcut icon" href="/favicon/icon.svg" type="image/svg+xml">
+    <!--Fonts Preload-->
+    {% include defaults/fonts.html %}
+</head>
+<body>
+    <header>
+        <div class="container row">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <div class="site__name">
+                <span class="site__title">Marko</span> <span class="site__title color__accent">Idžan</span>
+            </div>
+            {% include defaults/navigation.html %}
+        </div>
+    </header>
+    <main>
+        <section>
+            {{ content }}
+        </section>
+    </main>
+    {% include defaults/top.html %}
+    {% include defaults/footer.html %}
+
+    <script src="/js/code.js"></script>
+</body>
+</html>
