@@ -2,6 +2,7 @@
 title: Long-Term Review of Samsung Galaxy A7 (2018)
 layout: post
 permalink: /long-term-review-of-samsung-galaxy-a7-2018/
+description: Review of Samsung Galaxy A7 (2018) after a year
 image: galaxy-a7-2018-review
 imagedescription: Samsung Galaxy A7 (2018) smartphone with box
 categories:

@@ -2,6 +2,7 @@
 title: Using Huawei P9 Lite for a year
 layout: post
 permalink: /using-huawei-p9-lite-for-a-year/
+description: Review of Huawei P9 Lite after year of usage
 image: huawei-p9-lite-review
 imagedescription: Huawei P9 Lite VNS-L31 with old smartwatch
 categories:

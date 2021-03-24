@@ -2,6 +2,7 @@
 title: Month of usage for Xiaomi Redmi Note 9 Pro (better known as Review of phone)
 layout: post
 permalink: /month-of-usage-for-xiaomi-redmi-note-9-pro-better-known-as-review-of-phone/
+description: Month long review of Xiaomi Redmi Note 9 Pro
 image: xiaomi-redmi-note-9-pro-review
 imagedescription: Xiaomi Redmi Note 9 Pro with box while charging
 categories:

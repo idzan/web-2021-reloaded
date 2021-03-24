@@ -2,6 +2,7 @@
 title: Android user experience of using iOS for a month
 layout: post
 permalink: /android-user-experience-of-using-ios-for-a-month/
+description: Android users experience using iPhone 6 for almost a month, and review from time of usage
 image: iphone-6-review
 imagedescription: iPhone 6 on Settings page with original Apple EarPods
 categories:
