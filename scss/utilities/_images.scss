@@ -9,12 +9,25 @@
         aspect-ratio: 16 / 9;
     }
 
+    &__thumbnail--blog{
+        object-fit: cover;
+        aspect-ratio: 16 / 9;
+    }
+
     &__project {
+        max-width: 95vw;
+    }
+
+    &__post {
         max-width: 95vw;
     }
 
     @media (min-width: 45em) {
         &__project {
+            max-width: 40vw;
+        }
+
+        &__post {
             max-width: 40vw;
         }
     }

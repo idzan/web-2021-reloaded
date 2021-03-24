@@ -19,14 +19,14 @@ footer {
     justify-items: center;
   }
 
-.portfolio__grid {
+.portfolio__grid, .blog__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2rem;
     justify-content: center;
 }
 
-.project__informations {
+.project__informations, .post__header {
     display: grid;
     gap: 2rem;
     justify-content: center;

@@ -231,11 +231,21 @@ strong {
   object-fit: cover;
   aspect-ratio: 16/9;
 }
+.img__thumbnail--blog {
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
 .img__project {
+  max-width: 95vw;
+}
+.img__post {
   max-width: 95vw;
 }
 @media (min-width: 45em) {
   .img__project {
+    max-width: 40vw;
+  }
+  .img__post {
     max-width: 40vw;
   }
 }
@@ -340,14 +350,14 @@ footer {
   justify-items: center;
 }
 
-.portfolio__grid {
+.portfolio__grid, .blog__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 2rem;
   justify-content: center;
 }
 
-.project__informations {
+.project__informations, .post__header {
   display: grid;
   gap: 2rem;
   justify-content: center;

@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
+    <title>{{ page.name }} - {{ site.title }}</title>
     <meta name="description" content="{{ page.description }}">
     <!--Open Graph & Twitter Card-->
-    {% include home/open.html %}
+    {% include project/open.html %}
     <link rel="stylesheet" href="/css/master.css">
     <link rel="shortcut icon" href="/favicon/icon.svg" type="image/svg+xml">
     <!--Fonts Preload-->
@@ -21,13 +21,12 @@
             <div class="site__name">
                 <span class="site__title">Marko</span> <span class="site__title color__accent">Idžan</span>
             </div>
-            {% include home/navigation.html %}
+            {% include defaults/navigation.html %}
         </div>
     </header>
     <main>
         {{ content }}
     </main>
-    
     {% include defaults/top.html %}
     {% include defaults/footer.html %}
 

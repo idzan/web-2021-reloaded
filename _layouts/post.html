@@ -1,0 +1,45 @@
+---
+layout: post/layout
+---
+        <div class="post__header">
+            <picture class="img__post">
+                <source type="image/avif" 
+                    srcset="
+                        /img/300w/{{ page.image }}-300w.avif 300w,  
+                        /img/768w/{{ page.image }}-768w.avif 768w, 
+                        /img/1024w/{{ page.image }}-1024w.avif 1024w,
+                        /img/1536w/{{ page.image }}-1536w.avif 1536w, 
+                        /img/2048w/{{ page.image }}-2048w.avif 2048w,
+                        /img/full/{{ page.image }}.avif 2300w" 
+                    sizes="(max-width: 2300px) 100vw, 2300px">
+                <source type="image/webp" 
+                    srcset="
+                        /img/300w/{{ page.image }}-300w.webp 300w, 
+                        /img/768w/{{ page.image }}-768w.webp 768w,
+                        /img/1024w/{{ page.image }}-1024w.webp 1024w, 
+                        /img/1536w/{{ page.image }}-1536w.webp 1536w, 
+                        /img/2048w/{{ page.image }}-2048w.webp 2048w, 
+                        /img/full/{{ page.image }}.webp 2300w" 
+                    sizes="(max-width: 2300px) 100vw, 2300px" >
+                <img src="/img/full/{{ page.image }}.jpg"  
+                    srcset=" 
+                        /img/300w/{{ page.image }}-300w.jpg 300w, 
+                        /img/768w/{{ page.image }}-768w.jpg 768w,
+                        /img/1024w/{{ page.image }}-1024w.jpg 1024w, 
+                        /img/1536w/{{ page.image }}-1536w.jpg 1536w, 
+                        /img/2048w/{{ page.image }}c-2048w.jpg 2048w, 
+                        /img/full/{{ page.image }}.jpg 2300w" 
+                    sizes="(max-width: 2300px) 100vw, 2300px"  
+                    width="1536" height="817"  alt="{{ post.description }}">
+            </picture>
+        </div>
+        <article>
+            
+            <h1>{{ post.title }}</h1>
+            {{ content }}
+
+            <div class="meta">
+                <strong>Posted on:</strong> {{ page.date | date_to_string }}
+            </div>
+        </article>
+    </main>
