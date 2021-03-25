@@ -51,5 +51,3 @@ Video quality is solid for a phone with this price. I can say that videos are be
 In conclusion of this brief review of phone which I&#8217;m using for a month now I can say few things and those are &#8211; man, I freaking love Xiaomi eco-system. Especially for somebody who prior to buying this phone had Xiaomi Powerbank 2C in 20000mAh Capacity and Xiaomi Mi Band 4 (prior to buying it I had some cheap clone of it which broke in less then a month of usage and battery was 💩). With this I will keep it up with Xiaomi devices in future which might get to me Xiaomi flagship phones in Mi Series, not like today in Redmi mid-range based phones. As big plus, I&#8217;m currently moving whole family to Xiaomi phones from their Samsung&#8217;s and Cubot&#8217;s.
 
 All photos and videos are my property, and all (except cover image which is shot with iPhone 6) are created with Xiaomi Redmi Note 9 Pro within this month of usage. All images are hosted on Imgur and Google Photos as they are too much for this server.
-
-Updated on 18. September 2020. with macro camera shot example in full size.
