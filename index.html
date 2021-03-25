@@ -441,6 +441,50 @@ description: Marko Idžan’s Official Web Site and Portfolio
                 </div>
             </div>
         </section>
+        <section id="blog">
+            <h2 class="section__title">Blog</h2>
+            <div class="blog__grid">
+                {% for post in site.posts limit:5 %}
+                <div class="post__item">
+                    <picture class="img__thumbnail--blog">
+                        <source type="image/avif" 
+                            srcset="
+                                /img/300w/{{ post.image }}-300w.avif 300w,  
+                                /img/768w/{{ post.image }}-768w.avif 768w, 
+                                /img/1024w/{{ post.image }}-1024w.avif 1024w,
+                                /img/1536w/{{ post.image }}-1536w.avif 1536w, 
+                                /img/2048w/{{ post.image }}-2048w.avif 2048w,
+                                /img/full/{{ post.image }}.avif 2300w" 
+                            sizes="(max-width: 2300px) 100vw, 2300px">
+                        <source type="image/webp" 
+                            srcset="
+                                /img/300w/{{ post.image }}-300w.webp 300w, 
+                                /img/768w/{{ post.image }}-768w.webp 768w,
+                                /img/1024w/{{ post.image }}-1024w.webp 1024w, 
+                                /img/1536w/{{ post.image }}-1536w.webp 1536w, 
+                                /img/2048w/{{ post.image }}-2048w.webp 2048w, 
+                                /img/full/{{ post.image }}.webp 2300w" 
+                            sizes="(max-width: 2300px) 100vw, 2300px" >
+                        <img src="/img/full/{{ post.image }}.jpg"  
+                            srcset=" 
+                                /img/300w/{{ post.image }}-300w.jpg 300w, 
+                                /img/768w/{{ post.image }}-768w.jpg 768w,
+                                /img/1024w/{{ post.image }}-1024w.jpg 1024w, 
+                                /img/1536w/{{ post.image }}-1536w.jpg 1536w, 
+                                /img/2048w/{{ post.image }}-2048w.jpg 2048w, 
+                                /img/full/{{ post.image }}.jpg 2300w" 
+                            sizes="(max-width: 2300px) 100vw, 2300px"  
+                            width="1024" height="545"  alt="Parish of St. Vitus, Petrusevec - Zagreb">
+                    </picture>
+                    <div class="post__item--details">
+                        <h3 class="post__item--title">{{ post.title }}</h3>
+                        <a href="{{ post.url }}" class="button button__more" role="button">View post</a>
+                    </div>
+                    
+                </div>
+                {% endfor %}
+            </div>
+        </section>
         <section id="contact">
             <h2 class="section__title">Contact me</h2>
             <p>If you want to contact me you can use mail linked below or other medias for communication which are linked here.</p>
