@@ -70,8 +70,14 @@
             color: var(--nav-toggle-text);
         }
         
-        .link__external, .link__internal {
+        a {
             color: var(--link);
+            &[target=_blank] {
+                color: var(--link);
+            }
+            &[href^=mailto] {
+                color: var(--link);
+            }
         }
         
         .color__accent {

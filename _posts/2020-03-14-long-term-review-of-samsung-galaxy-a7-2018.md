@@ -16,7 +16,7 @@ Why I chose this device is one question – I decided to get it because our ISP 
 
 After few days of super heavy usage which included WiFi, Mobile Data, Dark Mode and Bluetooth on all time I saw that phone can survive for almost 2 full work days. That was nice. Later on while in lower time of usage phone survived for almost 3.5 days and then I disabled Bluetooth which I now use only when I want to connect to my Bluetooth Headset (Not so popular brand but it was cheap as f\***). Nice one for 3300mAh Battery.
 
-For specs of device I will provide it from [GSMArena](https://www.gsmarena.com/samsung_galaxy_a7_(2018)-9340.php){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}{:aria-label="GSMArena Specifications of phone (Opens in new tab)} because device have various combinations of RAM and Storage. Our devices are 4GB RAM and 64GB of Storage version.
+For specs of device I will provide it from [GSMArena](https://www.gsmarena.com/samsung_galaxy_a7_(2018)-9340.php){:rel="noopener noreferrer"}{:target="blank"}{:aria-label="GSMArena Specifications of phone (Opens in new tab)} because device have various combinations of RAM and Storage. Our devices are 4GB RAM and 64GB of Storage version.
 
 Screen is perfect size for my hands. It is perfect size, but well, I tried lately before this “human malware” some newer Samsung Devices from Operators Big Store and those are too big for my hands (note: those devices were Samsung Galaxy S20, Samsung Galaxy S20 Ultra, Samsung Galaxy Z Flip and Samsung Galaxy Fold).
 
@@ -24,11 +24,11 @@ Software is perfect, well, for me it is way better then Stock Android with some 
 
 Now, it is big time – Cameras time. How are they in my usage?
 
-Answer to question above is – perfect. I mean, really perfect. Only thing missing for me it is granular Pro Mode which had only Huawei P9 Lite (2016) but otherwise camera is great. Some shots are below in this gallery where all photos are uncompressed. For detailed informations about Photos check them out on updated [Gallery via Google Photos](https://photos.app.goo.gl/DWLUvaWKBCaYEYYG8){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}{:aria-label="View images on Google Photos Gallery (Opens in new tab)}.
+Answer to question above is – perfect. I mean, really perfect. Only thing missing for me it is granular Pro Mode which had only Huawei P9 Lite (2016) but otherwise camera is great. Some shots are below in this gallery where all photos are uncompressed. For detailed informations about Photos check them out on updated [Gallery via Google Photos](https://photos.app.goo.gl/DWLUvaWKBCaYEYYG8){:rel="noopener noreferrer"}{:target="blank"}{:aria-label="View images on Google Photos Gallery (Opens in new tab)}.
 
 As for video Quality I will refer to couple of videos linked below. All are in various forms which camera supports like Regular Mode, Time lapse mode and finally in Wide Angle camera mode.
 
-[View video examples on YouTube](https://www.youtube.com/watch?v=-eSHo6w_TT8&list=PL3kVxMe9MNP2isfPtt747ZklZX2yvZFAa){:.link__external}{:rel="noopener noreferrer"}{:target="blank"}{:aria-label="View videos on YouTube (Opens in new tab)}
+[View video examples on YouTube](https://www.youtube.com/watch?v=-eSHo6w_TT8&list=PL3kVxMe9MNP2isfPtt747ZklZX2yvZFAa){:rel="noopener noreferrer"}{:target="blank"}{:aria-label="View videos on YouTube (Opens in new tab)}
 
 As a conclusion I will say that this device is perfect for me, it will survive one more year of my usage and finally – it will be replaced with another mid-range device next year from A Series or maybe older flagship (hint: Galaxy S20).
 

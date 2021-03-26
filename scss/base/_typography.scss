@@ -11,7 +11,7 @@ strong {
     font-weight: 600;
 }
 
-#home, #about, #blog, #contact {
+#home, #about, #blog, #contact, #blog {
     h2 {
         font-weight: 600;
     }
@@ -54,7 +54,7 @@ strong {
     font-size: 0.9rem;
 }
 
-.link__external, .link__internal {
+a {
     &:focus {
         filter: brightness(80%);
     }

@@ -120,7 +120,7 @@ strong {
   font-weight: 600;
 }
 
-#home h2, #about h2, #blog h2, #contact h2 {
+#home h2, #about h2, #blog h2, #contact h2, #blog h2 {
   font-weight: 600;
 }
 
@@ -157,10 +157,10 @@ strong {
   font-size: 0.9rem;
 }
 
-.link__external:focus, .link__internal:focus {
+a:focus {
   filter: brightness(80%);
 }
-.link__external:hover, .link__internal:hover {
+a:hover {
   filter: brightness(80%);
 }
 
@@ -601,7 +601,13 @@ header {
   color: var(--menu-text);
 }
 
-.link__external, .link__internal {
+a {
+  color: var(--link);
+}
+a[target=_blank] {
+  color: var(--link);
+}
+a[href^=mailto] {
   color: var(--link);
 }
 
@@ -722,7 +728,13 @@ header {
     background: var(--nav-toggle);
     color: var(--nav-toggle-text);
   }
-  :root .link__external, :root .link__internal {
+  :root a {
+    color: var(--link);
+  }
+  :root a[target=_blank] {
+    color: var(--link);
+  }
+  :root a[href^=mailto] {
     color: var(--link);
   }
   :root .color__accent {
