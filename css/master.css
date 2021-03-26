@@ -485,11 +485,11 @@ header {
   height: auto;
 }
 
-#about h2, #services h2 {
+#about h2, #services h2, #blog h2 {
   padding-bottom: 1.5rem;
 }
 
-#services, #portfolio, #contact {
+#services, #portfolio, #contact, #blog {
   padding-top: 5rem;
 }
 
