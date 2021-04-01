@@ -1,12 +1,13 @@
 ---
 title: Moving away from Adobe
 layout: post
-permalink: /moving-away-from-adobe/
+permalink: "/moving-away-from-adobe/"
 description: How did I moved away from Adobe Creative Cloud Tools
 image: moving-from-adobe
 imagedescription: Computer with Photo editing tool open
 categories:
-  - Technology
+- Technology
+
 ---
 Soo, it took me a while but I’m now finally (yes, finally) Adobe CC Free.
 
