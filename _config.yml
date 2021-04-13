@@ -5,6 +5,8 @@ permalink: /:title/
 markdown: kramdown
 timezone: Europe/Zagreb
 
+include: [_redirects]
+
 collections:
   project:
     output: true
