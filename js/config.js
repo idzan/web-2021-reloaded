@@ -29,9 +29,6 @@ var klaroConfig = {
     groupByPurpose: true,
 
     storageMethod: 'localStorage',
-
-    // You can customize the name of the cookie that Klaro uses for storing
-    // user consent decisions. If undefined, Klaro will use 'klaro'.
     cookieName: 'idzan_consent',
 
     cookieExpiresAfterDays: 120,
@@ -59,7 +56,7 @@ var klaroConfig = {
     acceptAll: true,
 
     // replace "decline" with cookie manager modal
-    hideDeclineAll: true,
+    hideDeclineAll: false,
 
     // hide "learnMore" link
     hideLearnMore: false,
@@ -100,12 +97,16 @@ var klaroConfig = {
         // bundled translations.
         en: {
             consentModal: {
-                title: '<u>test</u>',
+                title: 'Do you agree about our cookies and settings?',
                 description:
-                    'Here you can see and customize the information that we collect about you. Entries marked as "Example" are just for demonstration purposes and are not really used on this website.',
+                    'Here you can see and customize and find what the information we collect about you.',
             },
             cloudflare: {
                 description: 'Protection against DDoS attacks, Pages (hosting) and basic Analytics',
+            },
+            
+            essentials: {
+                description: 'Protection against DDoS attacks, Pages (hosting) and basic Analytics with all importnant settings about your site configuration',
             },
             purposes: {
                 analytics: 'Analytics',
@@ -120,7 +121,7 @@ var klaroConfig = {
         {
             name: 'cloudflare',
             title: 'Cloudflare',
-            purposes: ['analytics', 'hosting', 'security'],
+            purposes: ['essentials'],
             required: true,
             cookies: ['__cf_bm', '__cfduid']
         }
