@@ -1,36 +1,54 @@
-addEventListener("fetch", event => {
-    event.respondWith(handleRequest(event.request));
-  });
-  
-  async function fetchAndStreamNotFoundPage(resp) {
-    const { status, statusText } = resp;
-    const { readable, writable } = new TransformStream();
-  
-    const response = await fetch("https://idzan.eu/404");
-    const { headers } = response;
-  
-    response.body.pipeTo(writable);
-  
-    return new Response(readable, {
-      status,
-      statusText,
-      headers
-    });
-  }
-  
-  function isHTMLContentTypeAccepted(request) {
-    const acceptHeader = request.headers.get("Accept");
-    return (
-      typeof acceptHeader === "string" && acceptHeader.indexOf("text/html") >= 0
-    );
-  }
-  
-  async function handleRequest(request) {
-    const response = await fetch(request);
-  
-    if (response.status === 404 && isHTMLContentTypeAccepted(request)) {
-      return fetchAndStreamNotFoundPage(response);
-    }
-  
-    return response;
-  }
+let securityHeaders = {
+	"Content-Security-Policy" : "upgrade-insecure-requests",
+	"Strict-Transport-Security" : "max-age=1000",
+	"X-Xss-Protection" : "1; mode=block",
+	"X-Frame-Options" : "DENY",
+	"X-Content-Type-Options" : "nosniff",
+	"Referrer-Policy" : "strict-origin-when-cross-origin",
+  "Permissions-Policy" : "interest-cohort=()",
+}
+
+let sanitiseHeaders = {
+	"Server" : "Powered by Cloudflare",
+}
+
+let removeHeaders = [
+	"Public-Key-Pins",
+	"X-Powered-By",
+	"X-AspNet-Version",
+]
+
+addEventListener('fetch', event => {
+	event.respondWith(addHeaders(event.request))
+})
+
+async function addHeaders(req) {
+	let response = await fetch(req)
+	let newHdrs = new Headers(response.headers)
+
+	if (newHdrs.has("Content-Type") && !newHdrs.get("Content-Type").includes("text/html")) {
+        return new Response(response.body , {
+            status: response.status,
+            statusText: response.statusText,
+            headers: newHdrs
+        })
+	}
+
+	Object.keys(securityHeaders).map(function(name, index) {
+		newHdrs.set(name, securityHeaders[name]);
+	})
+
+	Object.keys(sanitiseHeaders).map(function(name, index) {
+		newHdrs.set(name, sanitiseHeaders[name]);
+	})
+
+	removeHeaders.forEach(function(name){
+		newHdrs.delete(name)
+	})
+
+	return new Response(response.body , {
+		status: response.status,
+		statusText: response.statusText,
+		headers: newHdrs
+	})
+}
