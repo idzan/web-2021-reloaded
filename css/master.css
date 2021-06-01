@@ -259,11 +259,6 @@ a:where(:focus, :hover) {
   text-decoration: none;
   border: none;
   text-align: center;
-  /* 
-
-  &:focus {
-      filter: saturate(150%);
-  } */
 }
 .button__about {
   margin-top: 1.75rem;
@@ -392,9 +387,6 @@ header {
   transition: opacity 250ms ease;
   position: absolute;
   left: 0;
-  /* &:hover {
-      opacity: .75;
-  } */
 }
 .nav-toggle:where(:focus, :hover) {
   opacity: 0.75;

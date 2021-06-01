@@ -36,11 +36,7 @@
 
     &:where(:focus, :hover) {
         filter: saturate(150%);
-    }/* 
-
-    &:focus {
-        filter: saturate(150%);
-    } */
+    }
 
     @media (min-width: 45em) {
 
