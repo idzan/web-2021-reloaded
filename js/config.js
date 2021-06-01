@@ -74,7 +74,7 @@ var klaroConfig = {
         },
     },
 
-    apps: [
+    services: [
         {
             name: 'cloudflare',
             title: 'Cloudflare',
