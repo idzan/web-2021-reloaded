@@ -25,17 +25,17 @@ for i in `find imgs/ -name "*.jpg"`; do jpegoptim --max=80 --strip-all --all-pro
 
 # Create webp copies that are just the original filenames with .webp appended (to make it easy for Jekyll to conditionally
 # find them.
-for i in `find imgs/ -name "*.jpg"`; do cwebp -q 75 $i -o $i.webp; done
+#for i in `find imgs/ -name "*.jpg"`; do cwebp -q 75 $i -o $i.webp; done
 #for i in `find img/ -name "*.png"`; do cwebp -q 85 $i -o $i.webp; done
 #for i in `find img/ -name "*.gif"`; do gif2webp -q 75 $i -o $i.webp; done
 
 # If cavif [https://github.com/kornelski/cavif-rs/releases] available, make AVIFs like webp above.
 # @todo Switch this to the reference implementation once that's stable.
-for i in `find imgs/ -name "*.jpg"`; do cavif $i --speed=6; done
+#for i in `find imgs/ -name "*.jpg"`; do cavif $i --speed=6; done
 #for i in `find img/ -name "*.png"`; do cavif $i --speed=6; done
 
 # Rename from double *.png.webp and *.png.avif to *.webp and *.avif
 #rename "s/\.png.webp$/.webp/" *.webp
 #rename "s/\.png.avif$/.avif/" *.avif
-rename "s/\.jpg.webp$/.webp/" *.webp
+#rename "s/\.jpg.webp$/.webp/" *.webp
 #rename "s/\.jpg.avif$/.avif/" *.avif

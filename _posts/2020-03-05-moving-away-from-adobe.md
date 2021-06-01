@@ -4,7 +4,7 @@ layout: post
 permalink: "/moving-away-from-adobe/"
 description: How did I moved away from Adobe Creative Cloud Tools
 image: moving-from-adobe
-imagedescription: Computer with Photo editing tool open
+imagedescription: Screenshot of Serif's Affinity Photo and Designer Tools opened with images for editing
 categories:
 - Technology
 
@@ -37,4 +37,4 @@ Otherwise, this was long journey which started in September of 2019. and it is f
 
 *Note:* You can purchase license for bargain price on eBay from seller [kingsoft2020](https://www.ebay.com/usr/kingsoft2020){:rel="noopener noreferrer"}{:target="blank"}{:aria-label="kingsoft2020 on eBay (Opens in new tab)} – he is fast with delivery and he will respond to your answer fast.
 
-Cover Photo is created by [Peyman Farmani](https://unsplash.com/@peymanfarmani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:rel="noopener noreferrer"}{:target="blank"}{:aria-label="Peyman Farmani photo on Unsplash (Opens in new tab)} on [Unsplash](https://unsplash.com/s/photos/photoshop-cc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:rel="noopener noreferrer"}{:target="blank"}{:aria-label="Unsplash (Opens in new tab)}.
+Cover Photo is personal screenshot of programs in &quot;usage&quot;.
