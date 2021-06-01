@@ -20,13 +20,13 @@ header {
         position: absolute;
         left: 0;
 
-        &:focus {
+        &:where(:focus, :hover) {
             opacity: .75;
         }
 
-        &:hover {
+        /* &:hover {
             opacity: .75;
-        }
+        } */
         
     }
 

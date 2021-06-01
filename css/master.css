@@ -157,12 +157,6 @@ strong {
   font-size: 0.9rem;
 }
 
-a {
-  /* 
-  &:hover {
-      filter: brightness(80%);
-  } */
-}
 a:where(:focus, :hover) {
   filter: brightness(80%);
 }
@@ -265,6 +259,11 @@ a:where(:focus, :hover) {
   text-decoration: none;
   border: none;
   text-align: center;
+  /* 
+
+  &:focus {
+      filter: saturate(150%);
+  } */
 }
 .button__about {
   margin-top: 1.75rem;
@@ -287,10 +286,7 @@ a:where(:focus, :hover) {
   background: #4F5D75;
   color: #fdfbfb;
 }
-.button:hover {
-  filter: saturate(150%);
-}
-.button:focus {
+.button:where(:focus, :hover) {
   filter: saturate(150%);
 }
 @media (min-width: 45em) {
@@ -396,11 +392,11 @@ header {
   transition: opacity 250ms ease;
   position: absolute;
   left: 0;
+  /* &:hover {
+      opacity: .75;
+  } */
 }
-.nav-toggle:focus {
-  opacity: 0.75;
-}
-.nav-toggle:hover {
+.nav-toggle:where(:focus, :hover) {
   opacity: 0.75;
 }
 .nav--visible {
