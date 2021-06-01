@@ -55,12 +55,12 @@ strong {
 }
 
 a {
-    &:focus {
+    &:where(:focus, :hover) {
         filter: brightness(80%);
-    }
+    }/* 
     &:hover {
         filter: brightness(80%);
-    }
+    } */
 }
 
 .copyright__text, .gdpr__links {

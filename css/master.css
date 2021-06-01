@@ -157,10 +157,13 @@ strong {
   font-size: 0.9rem;
 }
 
-a:focus {
-  filter: brightness(80%);
+a {
+  /* 
+  &:hover {
+      filter: brightness(80%);
+  } */
 }
-a:hover {
+a:where(:focus, :hover) {
   filter: brightness(80%);
 }
 
